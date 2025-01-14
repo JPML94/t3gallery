@@ -1,6 +1,6 @@
-import { imageConfigDefault } from "next/dist/shared/lib/image-config";
-import Link from "next/link";
 import { db } from "~/server/db";
+
+export const dynamic = "force-dynamic";
 
 const mockUrls = [
   "https://nh5ui9lo37.ufs.sh/f/VfYJ3QOr2wKo12eSrwaZaNJvq5jyligI80fYnMCz3eQOwTBb",
